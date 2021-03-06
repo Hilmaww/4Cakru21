@@ -10,6 +10,7 @@ var span = document.getElementsByClassName("close")[0];
 
 button1.onclick = function(){
     modal1.style.display = "block";
+    console.log("woi kerja kek")
 }
 button2.onclick = function(){
     modal2.style.display = "block";
@@ -20,7 +21,7 @@ span.onclick  = function(){
 }
 
 window.onclick = function(event){
-    if (event.target == "modal"){
+    if (event.target == "modal1"){
         modal1.style.display = "none";
     }
 }
