@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Website WawanKRU</title>
         <link rel="stylesheet" href="style.css" />
-        <script src="index.js"></script>
+        <script src="index.js" defer></script>
     </head>
     <body>
         <div class="menu">
@@ -31,14 +31,14 @@
                         <p class="desc">Asal		: Bekasi</p>
                         <p class="desc">Unit lain 	: ARC dan UKT | DSC</p>
                         <p class="desc">Bahasa pemrograman favorit 	: javascript</p>
-                        <button class="more-button" id="myBtn6">More..</button>
+                        <button type="button" onclick="location.href='./page1.html'" class="more-button" id="myBtn6">More..</button>
                     </div>
                     <div id="myModal6" class="modal">
         
                         <!-- Modal content -->
                         <div class="modal-content">
                             <div class="modal-header">
-                              <span class="close">&times;</span>
+                              <span class="close" id="span1">&times;</span>
                               <h2>Catatan Full mengenai bahasan yang diwawancarai</h2>
                             </div>
                             <div class="modal-body">
@@ -82,7 +82,7 @@
                         <p class="desc">Angkatan 	: 2020</p>
                         <p class="desc">Jurusan 	: STEI TPB</p>
                         <p class="desc">Hobby		: Tiduran</p>
-                        <button id="myBtn1" class="more-button" function="getElementById('myModal1').style.display = 'block' ">More..</button>
+                        <button id="myBtn1" type="button" class="more-button" >More..</button>
                     </div>
                     <!-- The Modal -->
                     <div id="myModal1" class="modal">
@@ -90,7 +90,7 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <div class="modal-header">
-                              <span class="close">&times;</span>
+                              <span id="span2" class="close">&times;</span>
                               <h2>Modal Header</h2>
                             </div>
                             <div class="modal-body">
@@ -110,7 +110,8 @@
                               <p>Some other text...</p>
                             </div>
                             <div class="modal-footer">
-                              <h3>Modal Footer</h3>
+                                <button id="close">close woi</button>
+                                <h3>Modal Footer</h3>
                             </div>
                         </div>
                     
@@ -121,14 +122,14 @@
                         <p class="desc">Angkatan 	: 2020</p>
                         <p class="desc">Jurusan 	: STEI TPB</p>
                         <p class="desc">Hobby		: budak kucing</p>
-                        <button class="more-button" id="myBtn2">More..</button>
+                        <button class="more-button" type="button" id="myBtn2">More..</button>
                     </div>
                     <!-- The Modal -->
                     <div id="myModal2" class="modal">
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                            <span class="close">&times;</span>
+                            <span id="span3" class="close">&times;</span>
                             <p>A. Nama 		: Putri Nurhaliza
                                 B. Angkatan 		: 2020
                                 C. Fakultas		: STEI
@@ -152,14 +153,14 @@
                         <p class="desc">Angkatan 	: 2020</p>
                         <p class="desc">Jurusan 	: STEI TPB</p>
                         <p class="desc">Hobby		: Rebahan</p>
-                        <button class="more-button" id="myBtn3">More..</button>
+                        <button class="more-button" type="button" id="myBtn3">More..</button>
                     </div>
                     <!-- The Modal -->
                     <div id="myModal3" class="modal">
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                            <span class="close">&times;</span>
+                            <span id="span4" class="close">&times;</span>
                             <p>A. Nama		: Muhammad Rafli Bagaskara	
                                 B. Angkatan		: 2020
                                 C. Jurusan		: STEI TPB
@@ -182,14 +183,14 @@
                         <p class="desc">Angkatan 	: 2020</p>
                         <p class="desc">Jurusan 	: STEI TPB</p>
                         <p class="desc">Hobby		: Futsal</p>
-                        <button class="more-button" id="myBtn4">More..</button>
+                        <button class="more-button" type="button" id="myBtn4">More..</button>
                     </div>
                     <!-- The Modal -->
                     <div id="myModal4" class="modal">
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                            <span class="close">&times;</span>
+                            <span id="span5" class="close">&times;</span>
                             <p>A. Nama		: Malik Akbar Hashemi Rafsanjani	
                                 B. Angkatan		: 2020
                                 C. Jurusan		: STEI TPB
