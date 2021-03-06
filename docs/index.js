@@ -28,7 +28,8 @@ button3.onmouseout = function(){
 button4.onmouseout = function(){
     modal4.style.display = "none";
 }
-button6.onmoseout = function(){
+
+button6.onmouseout = function(){
     modal6.style.display = "none";
 }
 
@@ -42,20 +43,20 @@ button4.onmouseover = function(){
     modal4.style.display = "block";
 }
 
-button6.onmouseover = function(){
+button6.onclick = function(){
     modal6.style.display = "block";
 }
 
 
-/*
 span1.onclick  = function(){
     modal1.style.display = "none";
-
+    
 window.onclick = function(event){
     if (event.target == "modal1"){
         modal1.style.display = "none";
     }
 }
+/*
 window.onclick = function(event){
     if (event.target == "modal2"){
         modal2.style.display = "none";
@@ -71,8 +72,9 @@ window.onclick = function(event){
         modal4.style.display = "none";
     }
 }
+*/
 window.onclick = function(event){
     if (event.target == "modal6"){
         modal6.style.display = "none";
     }
-}*/
+}
