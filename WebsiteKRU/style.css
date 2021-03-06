@@ -24,20 +24,38 @@
     height: 100px;
     width: 900px;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: ivory;
 }
 .content{
     height: 600px;
     width: 1000px;
     float: left;
-    /*display: flex;
-    justify-content: flex-start;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: #F5CF8E;
 }
 .card{
     float: left;
     height: 200px;
     width: 250px;
+    margin: 20px 1%;
+    border: 1px solid #fff;
+    background-color: #F09A9D;
+}
+.nama{
+    font-size: medium;
+    font-weight: bold;
+}
+.cardkru20{
+    float: left;
+    height: 200px;
+    width: 450px;
     margin: 20px 1%;
     border: 1px solid #fff;
     background-color: #F09A9D;

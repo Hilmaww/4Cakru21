@@ -4,12 +4,15 @@ var modal3 = document.getElementById("myModal3")
 var modal4 = document.getElementById("myModal4")
 
 var button1 = document.getElementById("myBtn1")
+var button1 = document.getElementById("myBtn2")
 
 var span = document.getElementsByClassName("close")[0];
 
 button1.onclick = function(){
     modal1.style.display = "block";
-    document.getElementsByClassName("desc").innerHTML = "lol";
+}
+button2.onclick = function(){
+    modal2.style.display = "block";
 }
 
 span.onclick  = function(){
