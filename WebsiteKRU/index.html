@@ -1,0 +1,148 @@
+<!-- 
+	Nama: Muhammad Hilmi Fawwaz
+	NIM: 16520055
+ -->
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Website WawanKRU</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="index.js"></script>
+        <script>
+            var modal1 = document.getElementById("myModal1")
+            var modal2 = document.getElementById("myModal2")
+            var modal3 = document.getElementById("myModal3")
+            var modal4 = document.getElementById("myModal4")
+
+            var button1 = document.getElementById("myBtn1")
+
+            var span = document.getElementsByClassName("close")[0];
+
+            button1.onclick = function(){
+                modal1.style.display = "block";
+                document.getElementsByClassName("desc").innerHTML = "lol";
+            }
+
+            span.onclick  = function(){
+                modal1.style.display = "none";
+            }
+
+            window.onclick = function(event){
+                if (event.target == "modal"){
+                    modal1.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="menu">
+            <h1>Wawancara KRU</h1>
+        </div>
+        <div class="container">
+            
+            <div class="headContent">
+                <h1>Head</h1>
+            </div>
+            <div class="page">
+                <div class="content">
+                    <div class="card">
+                        <img src='?' class='card-image'/>
+                        <p>Orang 1</p>
+                        <p class="desc">Ad netus sagittis velit orci est non ut urna taciti metus donec magnis
+                            hendrerit adipiscing mauris sit a proin ultrices nibh.</p>
+                        <button id="myBtn1" class="more-button" function="getElementById('myModal1').style.display = 'block' ">More..</button>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal1" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                              <h2>Modal Header</h2>
+                            </div>
+                            <div class="modal-body">
+                              <p>Some text in the Modal Body</p>
+                              <p>Some other text...</p>
+                            </div>
+                            <div class="modal-footer">
+                              <h3>Modal Footer</h3>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="card">
+                        <img src='?' class='card-image'/>
+                        <p>Orang 2</p>
+                        <p class="desc">Ad netus sagittis velit orci est non ut urna taciti metus donec magnis
+                            hendrerit adipiscing mauris sit a proin ultrices nibh.</p>
+                        <button class="more-button" id="myBtn2">More..</button>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal2" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..</p>
+                        </div>
+                    
+                    </div>
+                    <div class="card">
+                        <img src='?' class='card-image'/>
+                        <p>Orang 3</p>
+                        <p class="desc">Ad netus sagittis velit orci est non ut urna taciti metus donec magnis
+                            hendrerit adipiscing mauris sit a proin ultrices nibh.</p>
+                        <button class="more-button" id="myBtn3">More..</button>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal3" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..</p>
+                        </div>
+                    
+                    </div>
+                    <div class="card">
+                        <img src='?' class='card-image'/>
+                        <p>Orang 4</p>
+                        <p class="desc">Ad netus sagittis velit orci est non ut urna taciti metus donec magnis
+                            hendrerit adipiscing mauris sit a proin ultrices nibh.</p>
+                        <button class="more-button" id="myBtn4">More..</button>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal4" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..</p>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="headContent">
+                <h1>Head</h1>
+            </div>
+            <div class="page">
+                <div class="content">
+                    <div class="card">
+                        <img src='?' class='card-image'/>
+                        <p>Orang 1</p>
+                        <p class="desc">Ad netus sagittis velit orci est non ut urna taciti metus donec magnis
+                            hendrerit adipiscing mauris sit a proin ultrices nibh.</p>
+                        <button class="more-button" id="myBtn5">More..</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer'>Footer</div>
+    </body>
+
+</html>
